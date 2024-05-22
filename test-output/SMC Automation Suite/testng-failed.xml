@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SMC Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SMC Test(failed)">
+    <classes>
+      <class name="testCase.MyFirstTestFW">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="SignInTest"/>
+        </methods>
+      </class> <!-- testCase.MyFirstTestFW -->
+    </classes>
+  </test> <!-- SMC Test(failed) -->
+</suite> <!-- Failed suite [SMC Automation Suite] -->
